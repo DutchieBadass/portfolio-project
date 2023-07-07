@@ -171,6 +171,33 @@ footer .social-media-links a:hover {
   background-color: var(--branding-color);
 }
 
+.contact-container .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-container .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contact-container .email-link:hover {
+  color: var(--branding-color);
+}
+
+.contact-container .social-media-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 30px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-with: 900px) {
   h1 {
     font-size: 46px;
